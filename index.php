@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <h2 class="contact">Kontakt</h2>
+        <h2 id="contact">Kontakt</h2>
 
         <p>Vil du noget? Så kom bare an, du kan kontakte mig på en af de stygge sociale medier på knapperne.</p>
 

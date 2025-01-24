@@ -1,5 +1,5 @@
 <header>
-    <div class="topnav">
+    <div class="topnav" id="topnav">
         <a id="home-link" class="narrow" href="#home" onclick="closeMenu()">Logo</a>
         <nav id="navigation">
             <a href="#news" onclick="closeMenu()">Nyheder</a>

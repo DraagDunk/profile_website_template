@@ -18,3 +18,17 @@ function closeMenu() {
         homeLink.classList.add("narrow");
     }
 }
+
+function topnavCloseEvent() {
+    const topnav = document.getElementById("topnav");
+    document.addEventListener("click", (e) => {
+        const clickTarget = e.target;
+        if (!topnav.contains(clickTarget)) {
+            closeMenu();
+        }
+    })
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    topnavCloseEvent();
+})
